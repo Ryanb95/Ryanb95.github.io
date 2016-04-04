@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:70px;
+	position:relative;
+}
+
+.page{
+	padding:50px 0;
+}
+
+
+.page h2{
+	text-align:center;
+	margin-bottom:30px;
+}
+
+#welcome{
+	background-color:#8769FF;
+	background-image: linear-gradient(to bottom, #0A00F9, #9FA1FF);
+	border-top:rgba(236, 200, 86, .5);
+}
+
+#welcome h2, #welcome p{
+	color:#E4DADA;
+}
+
+#galleryintro{
+	background-color:#8769FF;
+	background-image: linear-gradient(to bottom, #0A00F9, #9FA1FF);
+	border-top:rgba(236, 200, 86, .5);
+}
+
+#galleryintro h2, #galleryintro p, #galleryintro h3{
+	color:#E4DADA;
+}
+
+#find{
+	background-color:#8769FF;
+	background-image: linear-gradient(to bottom, #0A00F9, #9FA1FF);
+	border-top:rgba(236, 200, 86, .5);
+}
+
+#find h2{
+	color:#E4DADA;
+}
+
+#contact{
+	background-color:#8769FF;
+	background-image: linear-gradient(to bottom, #0A00F9, #9FA1FF);
+	border-top:rgba(236, 200, 86, .5);
+}
+
+#contact h2{
+	color:#E4DADA;
+}
+
+.intro{
+	text-align:center;
+	margin:20px 0;
+}
+
+#galleryintro img.thumbnail{
+	display:block;
+	width:80px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+#galleryintro h3{
+	margin-bottom:10px;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 768px){
+	.intro p{
+		padding:0 20%;
+	}
+}
+
+header .navbar{
+	padding:30px;
+}
+
+header .navbar-default{
+	background-color:transparent;
+	border:none;
+}
+
+header .navbar-default .navbar-nav a{
+	color:black;
+	padding:5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover{
+	color:#EEC856;
+}
+
+header .navbar-default .navbar-nav .active a{
+	font-weight:700;
+	color:#EEC856;
+	background:transparent;
+	border-bottom:4px solid #EEC856;
+}
+
+header .navbar-default .navbar-nav .active a:hover{
+	color:#E15D5F;
+	background:transparent;
+	text-shadow:none;
+}
+
+header .navbar-toggle{
+	background-color:#279182;
+}
+
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color:white;
+}
+
+@media only screen and (max-width:768px){
+header .navbar-collapse.in{
+	background-color:rgba(0, 0, 0, .5);
+}
+}
+	
+#about{
+	padding:0;
+}
+
+#about blockquote{
+	margin:0;
+	padding:0;
+	border-left:none;
+	min-height:500px;
+	position:relative;
+}
+
+#about blockquote .summary{
+	background-color:rgba(255, 255, 255, .8);
+	padding:20px 5%;
+	position:absolute;
+	bottom:0;
+	width:75%;
+	font-weight:400;
+	border-radius: 0 50px 0 0;
+}
+
+#about blockquote .summary:hover{
+	background-color:rgba(239, 240, 196, .9);
+}
+
+#about #gameart{
+	background-image:url(../submissions/gameart.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#about #digital{
+	background-image:url(../submissions/animation.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#about #creative{
+	background-image:url(../submissions/multi.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#about .summary{
+	font-size:1.2em;
+	line-height:110%;
+	font-weight:400;
+}
+
+#about .summary .more, #about .summary .course{
+	opacity:0;
+	font-size:0;
+	line-height:0;
+	padding-top:10px;
+}
+
+#about .summary:hover .more{ 
+	font-weight:100;
+	opacity:1;
+	display:block;
+	font-size:.8em;
+	line-height:120%;
+}
+
+h1{
+	text-align:center;
+}
+
+.games img, .animation img, .graphic img, .photography img, .web img, .video img, .sound img{
+	display:block;
+	margin:0 auto;
+	max-width:300px;
+	max-height:300px;
+}
+
+#entries{
+	background-color:#8769FF;
+	background-image: linear-gradient(to bottom, #0A00F9, #9FA1FF);
+	border-top:rgba(236, 200, 86, .5);
+}
+
+.sponsor{
+	display:block;
+	margin:0 auto;
+	max-width:300px;
+	max-height:300px;
+	padding:20px;
+}
+
+#sponsors{
+	background-color:#8769FF;
+	background-image: linear-gradient(to bottom, #0A00F9, #9FA1FF);
+	border-top:rgba(236, 200, 86, .5);
+}
+
+#landing{
+	background-image: linear-gradient(to bottom, #0A00F9, #9FA1FF);
+}
+
+.text{
+	font-size:100px;
+	color:#FF9600;
+}
+
+.animated .fadeInDown{
+	animation-duration:2s;
+}
+
+.animated .bounceInUp{
+	animation-delay:2s;
+	animation-duration:2s;
+}
+
+.animated .flipInX{
+	animation-delay:4s;
+	animation-duration:2s;
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
